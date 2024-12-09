@@ -1,4 +1,3 @@
-import "./App.css";
 import reactLogo from "./assets/react.svg";
 
 // Works also with SSR as expected
