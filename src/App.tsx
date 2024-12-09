@@ -7,12 +7,13 @@ function App() {
     <React.Fragment>
       <Helmet>
         <title>Sydney D. Enciso</title>
-        <meta name='description' content='Sr. Front-End Developer' />
-        <meta name='url' content='https://www.imdb.com/title/tt0117500/' />
         <meta
-          name='image'
-          content='https://ia.media-imdb.com/images/rock.jpg'
+          id='meta-description'
+          name='description'
+          content='Some description.'
         />
+        <meta id='og-title' property='og:title' content='MyApp' />
+        <meta id='og-image' property='og:image' content='path/to/image.jpg' />
       </Helmet>
 
       <section className='container'>
