@@ -209,6 +209,10 @@ ul {
     padding: 1rem 1rem;
   }
 
+  .content-container {
+    padding: 0 1rem;
+  }
+
   .profile {
     flex-direction: column;
   }
